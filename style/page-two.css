@@ -3,9 +3,9 @@
 
 
 
-/*------------------
-Starting of Styling
--------------------*/
+/*---------------
+Starting of Style 
+----------------*/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -86,7 +86,7 @@ header{
 
 /*
 Side Menu Design
----------------*/
+-----------------*/
 .side-menu{
     display: flex;
     flex-direction: column;
@@ -137,11 +137,23 @@ Blog Part Design
 Card Body Design
 ----------------*/
 .card-body{
-    height: 390px;
-    width: 312px;
+    text-align: center;
+    height: 250px;
+    width: 350px;
     border: 1px solid #e4e4e4;
     border-radius: 10px;
     transition: 0.2s linear;
+}
+
+.card-body h3{
+    font-size: 1em;
+    color: #707070
+}
+
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-body:hover{
@@ -212,6 +224,7 @@ footer{
 
 
 
+
 /*----------------------------------
     Starting of responsive style
 -----------------------------------*/
@@ -219,11 +232,9 @@ footer{
 
 
 
-
-
 /*
-For Tab Device 
----------------*/
+For Tab Device
+-----------------*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     body{
         margin: 0;
@@ -320,7 +331,6 @@ For Tab Device
 
 
 
-
 /* 
 For Mobile Device 
 -------------------*/
@@ -398,7 +408,7 @@ For Mobile Device
  
     .card-body{
         width: 380px;
-        height: 420px;
+        height: 250px;
     }
 
     .card-body img{
@@ -421,6 +431,7 @@ For Mobile Device
     }
 
 }
+
         /*-------------------
             Style Finished
          --------------------*/
